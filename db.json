@@ -1,0 +1,634 @@
+{
+  "documentTypes": [
+    {
+      "id": "1",
+      "name": "Quote",
+      "types": [
+        {
+          "id": "1",
+          "name": "Regular Quote"
+        },
+        {
+          "id": "2",
+          "name": "Super Quote"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sample"
+    },
+    {
+      "id": "3",
+      "name": "Purchase Order"
+    }
+  ],
+  "elements": [
+    {
+      "elementId": "address",
+      "type": "TEXT",
+      "label": "Client Address",
+      "content": "This is test product name",
+      "readOnly": false,
+      "group": "header",
+      "id": "dc59",
+      "docType": 1
+    },
+    {
+      "elementId": "quote",
+      "type": "TEXT",
+      "label": "Quote Details",
+      "content": "this is quote",
+      "readOnly": false,
+      "group": "header",
+      "id": "573b",
+      "docType": 1
+    },
+    {
+      "elementId": "image",
+      "type": "IMAGE",
+      "label": "Image",
+      "content": "",
+      "readOnly": false,
+      "group": "header",
+      "id": "0a81",
+      "docType": 1
+    },
+    {
+      "elementId": "preparedFor",
+      "type": "TEXT",
+      "label": "Prepared For",
+      "content": "this is prepared for",
+      "readOnly": false,
+      "group": "header",
+      "id": "621c",
+      "docType": 1
+    },
+    {
+      "elementId": "preparedBy",
+      "type": "TEXT",
+      "label": "Prepared By",
+      "content": "this is prepared by",
+      "readOnly": false,
+      "group": "header",
+      "id": "e31d",
+      "docType": 1
+    },
+    {
+      "elementId": "productName",
+      "type": "TEXT",
+      "label": "Product Name",
+      "content": "this is product name",
+      "readOnly": false,
+      "group": "header",
+      "id": "bdab",
+      "docType": 1
+    },
+    {
+      "elementId": "productDescription",
+      "type": "TEXT",
+      "label": "Product Description",
+      "content": "this is product description",
+      "readOnly": false,
+      "group": "header",
+      "id": "2076",
+      "docType": 1
+    },
+    {
+      "elementId": "title",
+      "type": "TEXT",
+      "label": "Title",
+      "content": "this is title",
+      "readOnly": false,
+      "group": "header",
+      "properties": {
+        "showManufacturer": false
+      },
+      "id": "788b",
+      "docType": 1
+    },
+    {
+      "elementId": "salesTeam",
+      "type": "TEXT",
+      "label": "Sales team(Acc. Manager)",
+      "content": "Sales team information",
+      "readOnly": false,
+      "group": "header",
+      "id": "b038",
+      "docType": 1
+    },
+    {
+      "elementId": "topic",
+      "type": "TEXT",
+      "label": "Topic",
+      "content": "Topic information",
+      "readOnly": false,
+      "group": "body",
+      "id": "ab05",
+      "docType": 1
+    },
+    {
+      "elementId": "secondaryCustomer",
+      "type": "TEXT",
+      "label": "Secondary Customer",
+      "content": "Secondary customer information",
+      "readOnly": false,
+      "group": "body",
+      "id": "ffbb",
+      "docType": 1
+    },
+    {
+      "elementId": "table",
+      "type": "TABLE",
+      "label": "Table",
+      "properties": [],
+      "group": "body",
+      "id": "dca3",
+      "docType": 1
+    },
+    {
+      "elementId": "summary",
+      "type": "TEXT",
+      "label": "Summary",
+      "content": "Summary information",
+      "group": "summary",
+      "id": "9ab9",
+      "docType": 1
+    },
+    {
+      "elementId": "text",
+      "type": "TEXT",
+      "label": "Text",
+      "content": "Enter text here",
+      "readOnly": false,
+      "group": "other",
+      "id": "0506",
+      "docType": 1
+    },
+    {
+      "elementId": "label",
+      "type": "TEXT",
+      "label": "Label",
+      "content": "This is label",
+      "readOnly": false,
+      "group": "other",
+      "id": "8d9d",
+      "docType": 1
+    },
+    {
+      "elementId": "footer",
+      "type": "TEXT",
+      "label": "Footer",
+      "content": "This is footer",
+      "readOnly": false,
+      "group": "footer",
+      "id": "6861",
+      "docType": 1
+    }
+  ],
+  "templates": [
+    {
+      "elements": {
+        "header": [
+          {
+            "elementId": "image",
+            "type": "IMAGE",
+            "label": "Image",
+            "content": "",
+            "readOnly": false,
+            "group": "header",
+            "id": "image-1736225732801",
+            "left": 288.34375,
+            "top": 49,
+            "width": 100,
+            "height": 100,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "imageUrl": "blob:http://localhost:3000/2f60fe1c-76d9-4932-853d-1b8ba908906a",
+            "originalFileName": "download.jpeg",
+            "tableData": null,
+            "showManufacturer": 0
+          },
+          {
+            "elementId": "address",
+            "type": "TEXT",
+            "label": "Client Address",
+            "content": "<p style=\"text-align: center\"><span style=\"font-size: 18px; color: #9f3838\"><strong>This is test product name</strong></span></p>",
+            "readOnly": false,
+            "group": "header",
+            "id": "address-1736999666752",
+            "docType": 1,
+            "left": 432.03125,
+            "top": 114,
+            "width": 280,
+            "height": 30,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": null,
+            "showManufacturer": 0
+          }
+        ],
+        "body": [
+          {
+            "elementId": "table",
+            "type": "TABLE",
+            "label": "Table",
+            "properties": [],
+            "group": "body",
+            "id": "table-1736225744480",
+            "left": -0.859375,
+            "top": 23.703125,
+            "width": 765,
+            "height": 200,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": {
+              "headers": [
+                {
+                  "id": "1",
+                  "fieldName": "Cust.Part#",
+                  "field": "QUOT_ITEM_PART_CUST",
+                  "order": 1,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "2",
+                  "fieldName": "Price Unit",
+                  "field": "QUOT_RESALE",
+                  "order": 2,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "10",
+                  "field": "QUOT_ITEM_PART_DESC",
+                  "fieldName": "Description",
+                  "order": 10,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "3",
+                  "fieldName": "Part No.",
+                  "field": "QUOT_ITEM_PART_MANF",
+                  "order": 3,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "4",
+                  "fieldName": "Quantity",
+                  "field": "QUOT_ITEM_QNTY",
+                  "order": 4,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "5",
+                  "fieldName": "Pricing UOM",
+                  "field": "QUOT_UOM",
+                  "order": 5,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                }
+              ],
+              "showNote": false,
+              "showLineNumber": false,
+              "groupBy": null,
+              "tableStyles": {
+                "showTableBorder": false,
+                "borderColor": "#000",
+                "borderWidth": 1,
+                "borderStyle": "solid"
+              }
+            },
+            "content": "",
+            "showManufacturer": 0
+          }
+        ],
+        "summary": [],
+        "footer": []
+      },
+      "zoneHights": {
+        "header": 28.830054910908903,
+        "body": 76.18675898122875,
+        "summary": 14.285714285714286,
+        "footer": 16.666666666666668
+      },
+      "templateName": "testing12",
+      "defaultFlag": 1,
+      "topic": 1,
+      "docType": "1",
+      "id": "c866"
+    },
+    {
+      "id": "3cff",
+      "elements": {},
+      "zoneHights": {
+        "header": 28.830054910908903,
+        "body": 76.18675898122875,
+        "summary": 14.285714285714286,
+        "footer": 16.666666666666668
+      },
+      "templateName": "new template",
+      "defaultFlag": 0,
+      "topic": 1,
+      "docType": "1"
+    }
+  ],
+  "columns": [
+    {
+      "id": "1",
+      "fieldName": "Cust.Part#",
+      "field": "QUOT_ITEM_PART_CUST",
+      "order": 1,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "2",
+      "fieldName": "Price Unit",
+      "field": "QUOT_RESALE",
+      "order": 2,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "3",
+      "fieldName": "Part No.",
+      "field": "QUOT_ITEM_PART_MANF",
+      "order": 3,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "4",
+      "fieldName": "Quantity",
+      "field": "QUOT_ITEM_QNTY",
+      "order": 4,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "5",
+      "fieldName": "Pricing UOM",
+      "field": "QUOT_UOM",
+      "order": 5,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "6",
+      "field": "QUOT_EXT_PRICE",
+      "fieldName": "Total Amount",
+      "order": 6,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "7",
+      "field": "QUOT_LEAD_TIME",
+      "fieldName": "Lead Time",
+      "order": 7,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "8",
+      "field": "QUOT_WEIGHT",
+      "fieldName": "Weight",
+      "order": 8,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "9",
+      "field": "GRID_DESC",
+      "fieldName": "Description",
+      "order": 9,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "10",
+      "field": "QUOT_ITEM_PART_DESC",
+      "fieldName": "Description",
+      "order": 10,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "11",
+      "field": "QUOT_NOTES",
+      "fieldName": "Note",
+      "order": 11,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": false,
+      "docType": 1
+    },
+    {
+      "id": "12",
+      "field": "QUOT_LOCATION",
+      "fieldName": "Location",
+      "order": 12,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    },
+    {
+      "id": "13",
+      "field": "QUOT_IMG_URL",
+      "fieldName": "Image",
+      "order": 13,
+      "columnProperties": {
+        "colspan": "1",
+        "rowspan": "1",
+        "width": "0",
+        "merge": null
+      },
+      "visible": true,
+      "docType": 1
+    }
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "QUOT_ITEM_PART_MANF": "ENG 10 09 2019",
+      "QUOT_ITEM_PART_CUST": "7657849",
+      "QUOT_ITEM_PART_DESC": "Axis Fixation Beam, 7.5 x 155 mm",
+      "GRID_DESC": "Axis Fixation Beam, 7.5 x 155 mm",
+      "QUOT_ITEM_QNTY": "10",
+      "QUOT_UOM": "EA",
+      "QUOT_RESALE": "26999.9987777",
+      "QUOT_EXT_PRICE": "269999.99",
+      "QUOT_NOTES": "Et reiciendis similique sed quam aliquam et deleniti unde hic autem consequatur eos libero dignissimos. Ut sint animi aut voluptatem quia 33 natus quia.",
+      "QUOT_LEAD_TIME": "100",
+      "QUOT_WEIGHT": "9.34",
+      "QUOT_PRINCIPAL": "Intp10092019",
+      "QUOT_LOCATION": "wl-1",
+      "QUOT_IMG_URL": "<img src='https://fastly.picsum.photos/id/2/3888/2592.jpg?hmac=H2kj1bNmSkXNECY4B4sHjQzZVa05ruYwqevOOYs4Q8A' alt='logo' width='50' height='50' />",
+      "elementId": "20fa",
+      "id": "939b"
+    },
+    {
+      "ID": 2,
+      "QUOT_ITEM_PART_MANF": "ENG 10 09 2019",
+      "QUOT_ITEM_PART_CUST": "7657849",
+      "QUOT_ITEM_PART_DESC": "Axis Fixation Beam, 7.5 x 155 mm",
+      "GRID_DESC": "Axis Fixation Beam, 7.5 x 155 mm",
+      "QUOT_ITEM_QNTY": "10",
+      "QUOT_UOM": "EA",
+      "QUOT_RESALE": "26999.9987777",
+      "QUOT_EXT_PRICE": "269999.99",
+      "QUOT_NOTES": "Et reiciendis similique sed quam aliquam et deleniti unde hic autem consequatur eos libero dignissimos. Ut sint animi aut voluptatem quia 33 natus quia.",
+      "QUOT_LEAD_TIME": "100",
+      "QUOT_WEIGHT": "9.34",
+      "QUOT_PRINCIPAL": "Intp10092019",
+      "QUOT_LOCATION": "wl-1",
+      "QUOT_IMG_URL": "<img src='https://fastly.picsum.photos/id/122/3888/2592.jpg?hmac=xkROmdWG_MzDmpTM2MTawXrpURb60jcTqzkxatKBbOk' alt='logo' width='50' height='50' />",
+      "elementId": "7525",
+      "id": "539d"
+    },
+    {
+      "ID": 3,
+      "QUOT_ITEM_PART_MANF": "ENG 10 09 2019",
+      "QUOT_ITEM_PART_CUST": "7657849",
+      "QUOT_ITEM_PART_DESC": "Axis Fixation Beam, 7.5 x 155 mm",
+      "GRID_DESC": "Axis Fixation Beam, 7.5 x 155 mm",
+      "QUOT_ITEM_QNTY": "10",
+      "QUOT_UOM": "EA",
+      "QUOT_RESALE": "26999.999000",
+      "QUOT_EXT_PRICE": "269999.99",
+      "QUOT_NOTES": "Et reiciendis similique sed quam aliquam et deleniti unde hic autem consequatur eos libero dignissimos. Ut sint animi aut voluptatem quia 33 natus quia.",
+      "QUOT_LEAD_TIME": "100",
+      "QUOT_WEIGHT": "9.34",
+      "QUOT_PRINCIPAL": "Intp10092020",
+      "QUOT_LOCATION": "wl-1",
+      "QUOT_IMG_URL": "<img src='https://fastly.picsum.photos/id/55/3888/2592.jpg?hmac=97Zgf0wBRr09RnK-KnkKkBy5wZP1aCtnL_5ICrgJdhk' alt='logo' width='50' height='50' />",
+      "elementId": "b1b6",
+      "id": "c546"
+    }
+  ]
+}
