@@ -372,21 +372,8 @@
       "topic": 1,
       "docType": "1",
       "id": "c866"
-    },
-    {
-      "id": "3cff",
-      "elements": {},
-      "zoneHights": {
-        "header": 28.830054910908903,
-        "body": 76.18675898122875,
-        "summary": 14.285714285714286,
-        "footer": 16.666666666666668
-      },
-      "templateName": "new template",
-      "defaultFlag": 0,
-      "topic": 1,
-      "docType": "1"
     }
+   
   ],
   "columns": [
     {
