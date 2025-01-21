@@ -368,12 +368,330 @@
         "footer": 16.666666666666668
       },
       "templateName": "testing12",
-      "defaultFlag": 1,
+      "defaultFlag": 0,
       "topic": 1,
       "docType": "1",
       "id": "c866"
+    },
+
+    {
+      "elements": {
+        "header": [
+          {
+            "elementId": "image",
+            "type": "IMAGE",
+            "label": "Image",
+            "content": "",
+            "readOnly": false,
+            "group": "header",
+            "id": "image-1736225732801",
+            "left": 25.0625,
+            "top": 45,
+            "width": 100,
+            "height": 100,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "imageUrl": "blob:https://twdev.repfabric.com/4e2d2c8c-6fc0-40ac-b83a-8f1b4dd909b9",
+            "originalFileName": "download.jpeg",
+            "tableData": null,
+            "showManufacturer": 0
+          },
+          {
+            "elementId": "address",
+            "type": "TEXT",
+            "label": "Client Address",
+            "content": "<p style=\"text-align: center\"><strong><em><span style=\"font-size: 24px; color: #3344c7\">Quotation</span></em></strong></p>",
+            "readOnly": false,
+            "group": "header",
+            "id": "address-1736999666752",
+            "docType": 1,
+            "left": 236.0625,
+            "top": 76,
+            "width": 200,
+            "height": 40,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": null,
+            "showManufacturer": 0
+          },
+          {
+            "elementId": "productDescription",
+            "type": "TEXT",
+            "label": "Product Description",
+            "content": "<p style=\"text-align: right\"><strong>Tw Development</strong></p><p style=\"text-align: right\">Anchor Plaza Parkway,</p><p style=\"text-align: right\">Suite 150, Tampa, FL, 33634</p><p style=\"text-align: right\">Mangalore</p><p style=\"text-align: right\">karnataka</p><p style=\"text-align: right\">TE-01</p>",
+            "readOnly": false,
+            "group": "header",
+            "id": "productDescription-1737438590877",
+            "docType": 1,
+            "left": 532.0625,
+            "top": 23,
+            "width": 200,
+            "height": 120,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": null,
+            "showManufacturer": 0
+          },
+          {
+            "elementId": "preparedFor",
+            "type": "TEXT",
+            "label": "Prepared For",
+            "content": "<p><strong>Prepared For :</strong></p><p>Customer 12345</p><p>XYZ LLC<br>Door #123<br>Tampa&nbsp;FL&nbsp;33626</p>",
+            "readOnly": false,
+            "group": "header",
+            "id": "preparedFor-1737438624757",
+            "docType": 1,
+            "left": 20.0625,
+            "top": 165,
+            "width": 120,
+            "height": 100,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": null,
+            "showManufacturer": 0
+          },
+          {
+            "elementId": "preparedBy",
+            "type": "TEXT",
+            "label": "Prepared By",
+            "content": "<p><strong>Prepared By :</strong></p><p>Repfabric User<br>Phone : 12345<br>Email : twdev@repfabric.com</p>",
+            "readOnly": false,
+            "group": "header",
+            "id": "preparedBy-1737438657534",
+            "docType": 1,
+            "left": 220.0625,
+            "top": 166,
+            "width": 180,
+            "height": 80,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": null,
+            "showManufacturer": 0
+          }
+        ],
+        "body": [
+          {
+            "elementId": "table",
+            "type": "TABLE",
+            "label": "Table",
+            "properties": [],
+            "group": "body",
+            "id": "table-1736225744480",
+            "left": -0.859375,
+            "top": 23.703125,
+            "width": 765,
+            "height": 200,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": {
+              "headers": [
+                {
+                  "id": "1",
+                  "fieldName": "Cust.Part#",
+                  "field": "QUOT_ITEM_PART_CUST",
+                  "order": 1,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "2",
+                  "fieldName": "Price Unit",
+                  "field": "QUOT_RESALE",
+                  "order": 2,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "10",
+                  "field": "QUOT_ITEM_PART_DESC",
+                  "fieldName": "Description",
+                  "order": 10,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "3",
+                  "fieldName": "Part No.",
+                  "field": "QUOT_ITEM_PART_MANF",
+                  "order": 3,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "13",
+                  "field": "QUOT_IMG_URL",
+                  "fieldName": "Image",
+                  "order": 13,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "docType": 1,
+                  "width": "NaN"
+                },
+                {
+                  "id": "4",
+                  "fieldName": "Quantity",
+                  "field": "QUOT_ITEM_QNTY",
+                  "order": 4,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "width": "NaN"
+                },
+                {
+                  "id": "6",
+                  "field": "QUOT_EXT_PRICE",
+                  "fieldName": "Total Amount",
+                  "order": 6,
+                  "columnProperties": {
+                    "colspan": "1",
+                    "rowspan": "1",
+                    "width": "0",
+                    "merge": null
+                  },
+                  "visible": true,
+                  "docType": 1,
+                  "width": "NaN"
+                }
+              ],
+              "showNote": false,
+              "showLineNumber": false,
+              "groupBy": null,
+              "tableStyles": {
+                "showTableBorder": false,
+                "borderColor": "#000",
+                "borderWidth": 1,
+                "borderStyle": "solid"
+              }
+            },
+            "content": "",
+            "showManufacturer": 0
+          }
+        ],
+        "summary": [
+          {
+            "elementId": "summary",
+            "type": "TEXT",
+            "label": "Summary",
+            "content": "<p style=\"text-align: right\"><strong><span style=\"font-size: 16px\">Grand Total: $</span><span style=\"font-size: 16px; color: #e51515\">9,821,537.76</span></strong></p><p style=\"text-align: right\"><strong><span style=\"font-size: 16px\">Total Weight: </span><span style=\"font-size: 16px; color: #f52424\">69.24</span></strong></p>",
+            "group": "summary",
+            "id": "summary-1737438720167",
+            "docType": 1,
+            "left": 465.0625,
+            "top": 3.265625,
+            "width": 260,
+            "height": 40,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": null,
+            "showManufacturer": 0
+          }
+        ],
+        "footer": [
+          {
+            "elementId": "footer",
+            "type": "TEXT",
+            "label": "Footer",
+            "content": "<p><strong><span style=\"font-size: 14px; color: rgb(51, 51, 51); font-family: Source Sans Pro, sans-serif\">Note: </span></strong><span style=\"font-size: 14px; color: rgb(51, 51, 51); font-family: Source Sans Pro, sans-serif\">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</span></p>",
+            "readOnly": false,
+            "group": "footer",
+            "id": "footer-1737438865878",
+            "docType": 1,
+            "left": 16.0625,
+            "top": 2.015625,
+            "width": 740,
+            "height": 80,
+            "textStyle": {
+              "fontSize": "14px",
+              "fontWeight": "normal",
+              "fontFamily": "Arial",
+              "color": "#000000",
+              "textAlign": "left"
+            },
+            "tableData": null,
+            "showManufacturer": 0
+          }
+        ]
+      },
+      "zoneHights": {
+        "header": 51.84671164296215,
+        "body": 76.18675898122875,
+        "summary": 14.285714285714286,
+        "footer": 16.666666666666668
+      },
+      "templateName": "template1",
+      "defaultFlag": 1,
+      "topic": 1,
+      "docType": "1",
+      "id": "Z0A35vp"
     }
-   
   ],
   "columns": [
     {
